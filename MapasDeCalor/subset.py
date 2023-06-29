@@ -1,8 +1,7 @@
 from sqlalchemy import create_engine, text, MetaData
 from sshtunnel import SSHTunnelForwarder
-from flask import Flask, render_template, request
-
-app = Flask(__name__)
+import csv 
+import random
 
 # SSH Parameters
 SERVER = "s02.imfd.cl"
@@ -53,54 +52,51 @@ def check_table(conn):
             "WHERE table_name = '{}');").format(DB_TABLE)
     return conn.execute(text(query)).fetchone()[0]
 
-def get_headers():
-    # Fetch the table metadata
-    metadata = MetaData()
-    metadata.reflect(bind=engine)
-    table = metadata.tables[DB_TABLE]
-    columns = table.columns
 
-    # Print the column headers
-    headers = [column.name for column in columns]
-    print("Column Headers:")
-    print(", ".join(headers))
-        
-def db_size():
-    query = "SELECT pg_size_pretty(pg_database_size('{}'));".format(DB_NAME)
-    result = conn.execute(text(query)).fetchone()
+def generate_csv_by_crime(crime, filename):
+    print("Generating CSV file...")
+    # Open the file for writing the CSV data
+    with open(filename, 'w', newline='') as file:
+        # Headers/Columns of info you want
+        headers = ["y", "x", "fecha", "hora", "comuna", "delito"]
+        writer = csv.writer(file)
 
-    if result:
-        size = result[0]
-        print("Size of the database '{}': {}".format(DB_NAME, size))
-    else:
-        print("Failed to retrieve the size of the database.")
+        writer.writerow(headers)
 
-@app.route('/')
-def view_data():
-    # Database connection setup
-    engine = connect_sqlalc()
-    with engine.begin() as conn:
-        # Pagination parameters
-        page_size = 30  # Number of rows per page
-        current_page = request.args.get('page', default=1, type=int)  # Get current page from query parameters
+        # Calculate the number of rows per iteration
+        rows_per_iteration = 500
 
-        # Retrieve data for the current page
-        query = f"SELECT * FROM {DB_TABLE} LIMIT {page_size} OFFSET {(current_page - 1) * page_size};"
-        result = conn.execute(text(query)).fetchall()
+        # Initialize the offset and rows_added variables
+        offset = 0
+        rows_added = 0
 
-        # Render the template with the data
-        return render_template('data.html', data=result, current_page=current_page)
+        # Start the loop to generate the CSV data
+        while True:
+            # Execute the query to fetch rows where delito = "Homicidio"
+            query = f"SELECT {', '.join(headers)} FROM {DB_TABLE} WHERE delito = '{crime}' LIMIT {rows_per_iteration} OFFSET {offset};"
+            result_proxy = conn.execute(text(query))
+            rows = result_proxy.fetchall()
+
+            # If no rows are fetched, break out of the loop
+            if not rows:
+                break
+
+            # Write the rows to the CSV file
+            writer.writerows(rows)
+
+            # Increment the offset and update the rows_added counter
+            offset += rows_per_iteration
+            rows_added += len(rows)
+
+        print("CSV file generated successfully.")
 
 if __name__ == "__main__":
+    # Database connection setup
     engine = connect_sqlalc()
     with engine.begin() as conn:
         # Check if the table exists
         if check_table(conn):
-            get_headers()
-            db_size()
+            generate_csv_by_crime("Homicidio", "homicidios3.csv")
         else:
             print("The table does not exist.")
-        
-    app.run(debug=True)
-
 

@@ -10,28 +10,9 @@
     <table class ="table table-striped">
         <thead>
             <tr>
-                <th class="text-start">Index</th>
-                <th>X</th>
-                <th>Y</th>
-                <th>Parte ID</th>
-                <th>Fecha</th>
-                <th>Hora</th>
-                <th>Rango</th>
-                <th>Clasificación Parte</th>
-                <th>Source</th>
-                <th>Source Glosa</th>
-                <th>Estado</th>
-                <th>Lugar</th>
-                <th>Grupo Delictual</th>
-                <th>Delito</th>
-                <th>Riesgo Situacional</th>
-                <th>Descripción Situacional</th>
-                <th>Denuncia Formal</th>
-                <th>Denuncia Informa</th>
-                <th>Comuna</th>
-                <th>ID Comuna</th>
-                <th>Barrio</th>
-                <th>ID Barrio</th>
+                {% for header in headers %}
+                <th class="text-start">{{ header }}</th>
+                {% endfor %}
             </tr>
         </thead>
         <tbody>
