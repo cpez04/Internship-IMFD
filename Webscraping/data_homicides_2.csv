@@ -1,0 +1,226 @@
+index,x,y,parte_id,fecha,hora,rango,clasificacion_parte,source,source_glosa,estado,lugar,grupo_delictual,delito,riesgo_situacional,descripcion_situacional,denuncia_formal,denuncia_informa,comuna,id_comuna,barrio,id_barrio
+NA,-70.6661166100004,-33.5656730699983,4110182,2013-01-05,13:00:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Otros,DMCS contra personas,Homicidio,NA,NA,NA,NA,El Bosque,13105,NA,NA
+NA,-70.6909638780005,-33.4834366799982,916159,2013-01-06,06:30:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerrillos,13102,NA,NA
+NA,-70.6493887770004,-33.4406541009984,2424020,2013-01-10,17:10:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.6689823600005,-33.3741729899983,3090757,2013-01-13,20:20:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.7889157100007,-33.5023111099978,2416819,2013-01-19,02:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.7889157100007,-33.5023111099978,2416821,2013-01-19,02:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.6736087580005,-33.5713230329982,2467075,2013-01-22,07:50:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,El Bosque,13105,NA,NA
+NA,-70.6399265100004,-33.3679050699984,3090776,2013-01-26,05:30:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Huechuraba,13107,NA,NA
+NA,-70.6309135700004,-33.3619719899984,7995,2013-01-26,08:10:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Huechuraba,13107,NA,NA
+NA,-70.6990812100005,-33.5272798999982,856102,2013-02-02,03:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Espejo,13116,NA,NA
+NA,-70.6190090600004,-33.5381879499984,921450,2013-02-07,02:00:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Granja,13111,NA,NA
+NA,-70.6397766350004,-33.4026797139984,931620,2013-02-15,18:40:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.6336545952004,-33.3748337938984,7996,2013-02-21,01:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Huechuraba,13107,NA,NA
+NA,-70.5281100000003,-33.4703099999986,363061,2013-02-26,09:45:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Peñalolén,13122,NA,NA
+NA,-70.6716674180005,-33.4007894419983,919301,2013-03-02,02:50:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Independencia,13108,NA,NA
+NA,-70.5798500000003,-33.5230899999985,3090759,2013-03-04,13:10:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.6823157600005,-33.3987938499982,2465350,2013-03-05,13:30:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.7467563820006,-33.405574716998,3090778,2013-03-09,04:00:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.6361200300004,-33.5533746099984,4067014,2013-03-09,06:03:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Ramón,13131,NA,NA
+NA,-70.6382583300004,-33.4019345899984,2420925,2013-03-10,01:45:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.5671290600003,-33.4031097899986,359652,2013-03-15,21:30:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Edificio condominio,DMCS contra personas,Homicidio,NA,NA,NA,NA,Las Condes,13114,NA,NA
+NA,-70.6638853030005,-33.5871884419983,7473,2013-03-16,02:15:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.7125298500005,-33.4750230199981,3090758,2013-03-17,04:30:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Estación Central,13106,NA,NA
+NA,-70.6864825500005,-33.3736796629982,7988,2013-03-17,11:45:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.6785744030005,-33.5452093069982,3090775,2013-03-19,20:00:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,El Bosque,13105,NA,NA
+NA,-70.7642491800006,-33.4867874599979,3075522,2013-03-26,15:45:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.6023600000003,-33.5625499999985,3090760,2013-03-29,21:30:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.6960834031005,-33.4760931837982,356866,2013-03-30,03:45:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Parques de entretención,DMCS contra personas,Homicidio,NA,NA,NA,NA,Estación Central,13106,NA,NA
+NA,-70.6960834031005,-33.4760931837982,2126645,2013-03-30,03:45:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Estación Central,13106,NA,NA
+NA,-70.6061383879004,-33.4695020465985,2485679,2013-03-31,23:00:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Ñuñoa,13120,NA,NA
+NA,-70.5678900000003,-33.5135399999985,921288,2013-04-03,21:45:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.6437500568004,-33.4179635403984,4179003,2013-04-07,23:00:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.7662064194007,-33.4181231522979,2412468,2013-04-20,00:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.7362201500006,-33.4282798899981,356063,2013-04-20,13:10:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.7342367481006,-33.4021413792981,3090777,2013-04-20,18:20:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.6845272026005,-33.3763186610983,32881,2013-04-21,01:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.7113633800005,-33.4769086799981,32882,2013-04-21,20:20:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Estación Central,13106,NA,NA
+NA,-70.6748971100005,-33.3930338799983,852415,2013-04-21,21:50:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.5363291300003,-33.4147473499986,922715,2013-04-22,02:00:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Las Condes,13114,NA,NA
+NA,-70.6351756580004,-33.5766627809983,1202337,2013-04-23,10:40:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Otros,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6175569478004,-33.5375915852984,921443,2013-04-24,12:55:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Granja,13111,NA,NA
+NA,-70.5344690089003,-33.4568333071986,855773,2013-05-05,05:30:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Reina,13113,NA,NA
+NA,-70.6313258990004,-33.3610163069984,63168,2013-05-05,18:31:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Huechuraba,13107,NA,NA
+NA,-70.6926263700005,-33.4294429199982,861451,2013-05-07,16:50:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Quinta Normal,13126,NA,NA
+NA,-70.6868858100005,-33.4649400499982,3075889,2013-05-07,21:00:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Estación Central,13106,NA,NA
+NA,-70.6126281407004,-33.5933614230984,2415453,2013-05-08,21:00:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6635208200005,-33.3928207899983,916880,2013-05-10,21:00:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.6078800000003,-33.5595299999984,2414935,2013-05-11,13:15:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.6551232960004,-33.5512658049983,7992,2013-05-16,15:30:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,El Bosque,13105,NA,NA
+NA,-70.6617576900004,-33.5582677159983,2412923,2013-05-21,02:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,El Bosque,13105,NA,NA
+NA,-70.7945156602007,-33.5135194504978,2416820,2013-05-25,02:55:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.5004926916002,-33.3559552943987,8000,2013-06-02,05:30:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Barnechea,13115,NA,NA
+NA,-70.7137229800006,-33.4188140549981,930798,2013-06-09,20:25:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Quinta Normal,13126,NA,NA
+NA,-70.6558163764004,-33.4270151590983,919302,2013-06-09,21:10:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Independencia,13108,NA,NA
+NA,-70.5056624700002,-33.3645438399987,3927415,2013-06-09,21:35:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Barnechea,13115,NA,NA
+NA,-70.7523372029006,-33.416659136398,916390,2013-06-19,17:20:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.6380352130004,-33.3902608399984,2421295,2013-06-22,12:00:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.6177240100004,-33.4697545799984,362252,2013-06-26,02:30:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Ñuñoa,13120,NA,NA
+NA,-70.6100656870004,-33.5615337328984,2133920,2013-06-26,22:10:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Veh. particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.6332365418004,-33.5633820122984,1202784,2013-06-29,05:40:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.5771342359003,-33.3912187198986,878809,2013-07-04,21:10:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Vitacura,13132,NA,NA
+NA,-70.6632180600004,-33.5325759999983,2428116,2013-07-06,01:25:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Cisterna,13109,NA,NA
+NA,-70.6700066900004,-33.4774351199983,762152,2013-07-07,06:00:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pedro Aguirre Cerda,13121,NA,NA
+NA,-70.5718610617003,-33.4765689022986,2432188,2013-07-12,12:30:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Peñalolén,13122,NA,NA
+NA,-70.5718610617003,-33.4765689022986,2660341,2013-07-12,12:30:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Peñalolén,13122,NA,NA
+NA,-70.6242100000004,-33.5031299999984,3090744,2013-07-17,04:25:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Joaquín,13129,NA,NA
+NA,-70.6395753420004,-33.5124813629984,958069,2013-07-20,23:55:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Miguel,13130,NA,NA
+NA,-70.6243796350004,-33.5916129899984,942023,2013-07-25,21:55:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.5569500000003,-33.4695699999986,949471,2013-07-28,03:55:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Peñalolén,13122,NA,NA
+NA,-70.6635427300004,-33.5143188899983,2524109,2013-07-29,21:50:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Cisterna,13109,NA,NA
+NA,-70.5801500000003,-33.5534299999985,941316,2013-08-03,21:00:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.7975323600008,-33.5197672499978,1230627,2013-08-04,05:00:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.6036941800004,-33.4897820299985,756958,2013-08-14,00:10:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Macul,13118,NA,NA
+NA,-70.6380031700004,-33.5210858199984,3090745,2013-08-14,22:30:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Ramón,13131,NA,NA
+NA,-70.5856363403003,-33.5596873557985,940767,2013-08-15,05:05:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.7176690970006,-33.3606596049982,2661453,2013-08-17,19:00:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Quilicura,13125,NA,NA
+NA,-70.6491595500004,-33.4839594399983,802794,2013-08-18,11:00:00,8:00-11:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Miguel,13130,NA,NA
+NA,-70.6975028700005,-33.5133789009982,1061636,2013-08-22,03:10:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Espejo,13116,NA,NA
+NA,-70.6708840600005,-33.5804677199982,939037,2013-08-25,02:00:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,El Bosque,13105,NA,NA
+NA,-70.7537023000006,-33.473026479998,142002,2013-08-25,04:30:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.6463317045004,-33.4077833188984,953757,2013-08-25,11:30:00,8:00-11:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.6654424420005,-33.5080650989983,2566959,2013-08-26,22:50:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Miguel,13130,NA,NA
+NA,-70.6940855700005,-33.4571630699982,32916,2013-08-31,00:00:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Estación Central,13106,NA,NA
+NA,-70.7477579300006,-33.431268129998,8235,2013-09-03,01:30:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pudahuel,13124,NA,NA
+NA,-70.6206043100004,-33.5377816429984,2428706,2013-09-03,09:10:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Granja,13111,NA,NA
+NA,-70.6264720360004,-33.3759446239984,2522309,2013-09-04,12:30:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Huechuraba,13107,NA,NA
+NA,-70.6126054132004,-33.5933597875984,818399,2013-09-05,09:50:00,8:00-11:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6854744700005,-33.4813705699982,2431994,2013-09-06,07:00:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pedro Aguirre Cerda,13121,NA,NA
+NA,-70.6472965190004,-33.3833715509984,954412,2013-09-08,04:00:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.7230847500006,-33.4209045009981,3075928,2013-09-08,06:30:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.5899653034003,-33.5110386556985,940902,2013-09-11,19:45:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.6114651200004,-33.5338275999984,2429052,2013-09-13,14:45:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Granja,13111,NA,NA
+NA,-70.6247800000004,-33.4860399999984,3090766,2013-09-14,04:30:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Otros,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Joaquín,13129,NA,NA
+NA,-70.6532340600004,-33.4206622899983,802540,2013-09-15,01:00:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,Independencia,13108,NA,NA
+NA,-70.6538828977004,-33.5775335896983,941994,2013-09-19,00:30:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6566742700004,-33.5040261599983,2435758,2013-09-19,07:50:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Miguel,13130,NA,NA
+NA,-70.6352348380004,-33.3622374359984,2427725,2013-09-19,10:05:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Huechuraba,13107,NA,NA
+NA,-70.7450054009006,-33.450827551798,470540,2013-09-19,21:15:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pudahuel,13124,NA,NA
+NA,-70.6322292700004,-33.4732250399984,383195,2013-09-21,21:00:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.6276701900004,-33.4638117799984,960670,2013-09-22,03:20:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.6877568800005,-33.5093461599982,1228718,2013-09-23,22:40:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Espejo,13116,NA,NA
+NA,-70.6629547060004,-33.483851347998304,2660047,2013-09-24,19:00:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pedro Aguirre Cerda,13121,NA,NA
+NA,-70.6350839100004,-33.4011270299984,954183,2013-09-27,20:08:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.6357648100004,-33.5402200399984,475893,2013-09-29,02:30:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Ramón,13131,NA,NA
+NA,-70.6462530200004,-33.5244071599984,965075,2013-09-29,18:30:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Ramón,13131,NA,NA
+NA,-70.7393328900006,-33.4005755739981,8290,2013-10-05,11:25:00,8:00-11:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.6221140600004,-33.5591962799984,2429473,2013-10-06,08:20:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6936568960005,-33.4490005839982,2521488,2013-10-13,02:20:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Estación Central,13106,NA,NA
+NA,-70.6302163700004,-33.4453611399984,1232296,2013-10-15,17:30:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Providencia,13123,NA,NA
+NA,-70.6185805700004,-33.4214010599985,469548,2013-10-17,21:35:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,Providencia,13123,NA,NA
+NA,-70.6813240300005,-33.3954520399983,938425,2013-10-17,22:00:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.7228020020006,-33.3697329549981,2433614,2013-10-18,06:20:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Quilicura,13125,NA,NA
+NA,-70.7454031630006,-33.402808376998,3075949,2013-10-18,16:35:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.6424071820004,-33.4017318759984,4170270,2013-10-18,19:50:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.6249818100004,-33.3765104199984,2522638,2013-10-19,10:00:00,8:00-11:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Huechuraba,13107,NA,NA
+NA,-70.5657100000003,-33.4835899999986,4195359,2013-10-19,22:30:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Cuarteles policiales,DMCS contra personas,Homicidio,NA,NA,NA,NA,Peñalolén,13122,NA,NA
+NA,-70.5637000000003,-33.5076899999986,3075754,2013-10-20,04:50:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Peñalolén,13122,NA,NA
+NA,-70.5092669693002,-33.3607472861987,2429889,2013-10-20,15:00:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Barnechea,13115,NA,NA
+NA,-70.7713873700007,-33.5087882799979,466052,2013-10-26,01:30:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.6594911430004,-33.3773382959983,938656,2013-10-27,02:45:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.7883780200007,-33.5052530299978,142003,2013-10-27,21:20:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.7450016160006,-33.365600979998,3090765,2013-10-28,16:10:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Quilicura,13125,NA,NA
+NA,-70.7622580700007,-33.5089482699979,376592,2013-11-06,07:00:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.7507925500006,-33.419713229998,459197,2013-11-10,05:05:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.7351859600006,-33.4814914999981,3090764,2013-11-10,15:45:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.6755715400005,-33.4427634499983,2437448,2013-11-10,17:00:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.6035491011004,-33.5428690724984,2428689,2013-11-11,00:35:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.7394286200006,-33.399855969998,2556092,2013-11-11,12:30:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.7311435000006,-33.4018593349981,8289,2013-11-16,05:25:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.5675400000003,-33.4692799999986,2432143,2013-11-16,05:30:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Peñalolén,13122,NA,NA
+NA,-70.7102081100005,-33.4432326599982,374682,2013-11-17,05:30:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Prado,13117,NA,NA
+NA,-70.5711900000003,-33.5022799999985,378164,2013-11-21,17:50:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Peñalolén,13122,NA,NA
+NA,-70.7205069190006,-33.4318166919981,3075927,2013-11-23,22:00:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.6002500000003,-33.5213599999985,940911,2013-12-01,01:51:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.6513407172004,-33.4261264373983,2006639,2013-12-03,06:25:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Independencia,13108,NA,NA
+NA,-70.6188309740004,-33.5921075719984,2658269,2013-12-03,13:30:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6340448000004,-33.5591857899984,941875,2013-12-03,18:45:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6769935370005,-33.4611164479983,383662,2013-12-04,19:30:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Otros,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.507889200000207,-33.3650215999987,3090763,2013-12-07,11:00:00,8:00-11:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Barnechea,13115,NA,NA
+NA,-70.5026255736002,-33.3577691760987,2429931,2013-12-07,16:45:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Barnechea,13115,NA,NA
+NA,-70.7130702752005,-33.5007849624981,1220757,2013-12-10,10:25:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerrillos,13102,NA,NA
+NA,-70.6810072187005,-33.3984957071983,2518447,2013-12-10,19:30:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.6543817000004,-33.5010513999983,957860,2013-12-12,00:55:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Miguel,13130,NA,NA
+NA,-70.7507925500006,-33.419713229998,3090762,2013-12-14,02:50:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.6242041350004,-33.5901443059984,3075935,2013-12-18,16:00:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6491597000004,-33.4839629999983,2272602,2013-12-20,12:00:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Miguel,13130,NA,NA
+NA,-70.6188309740004,-33.5921075719984,2529017,2013-12-22,21:35:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6911591000005,-33.3681635999982,938481,2013-12-22,21:49:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.6872167300005,-33.3775153359982,2518478,2013-12-25,18:00:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.6563246000004,-33.5596917999983,32915,2013-12-26,16:00:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,El Bosque,13105,NA,NA
+NA,-70.7510082000006,-33.429227909998,4239986,2013-12-29,02:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pudahuel,13124,NA,NA
+NA,-70.7148400094006,-33.4119900119981,381145,2013-12-30,01:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Quinta Normal,13126,NA,NA
+NA,-70.7216934600006,-33.4223018399981,1304688,2014-01-02,09:30:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.6219828000004,-33.4042652999984,1512498,2014-01-03,12:15:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.6231100000004,-33.4903999999984,988165,2014-01-04,22:15:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Joaquín,13129,NA,NA
+NA,-70.7448065100006,-33.482113709998,8064,2014-01-05,04:50:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.6956682100005,-33.3887489139982,2590387,2014-01-07,19:45:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.7513767430006,-33.399400363998,2589959,2014-01-08,02:15:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.6730555000005,-33.4344094999983,421107,2014-01-12,00:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.7609682833007,-33.421622749498,2438152,2014-01-14,00:25:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.7044280000005,-33.5307358999981,1070397,2014-01-14,11:00:00,8:00-11:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Espejo,13116,NA,NA
+NA,-70.5409100000003,-33.4714499999986,1483837,2014-01-15,11:00:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Peñalolén,13122,NA,NA
+NA,-70.7212898900006,-33.4754646399981,3075776,2014-01-19,06:30:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerrillos,13102,NA,NA
+NA,-70.7212898900006,-33.4754646399981,3091414,2014-01-19,06:30:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerrillos,13102,NA,NA
+NA,-70.6100614950004,-33.5885441719984,3076150,2014-01-23,12:30:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6520656020004,-33.4334438029983,8066,2014-01-23,23:00:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.6520656020004,-33.4334438029983,175359,2014-01-23,23:00:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.6155931170004,-33.5592597099984,2440603,2014-01-25,21:10:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6819155000005,-33.3974612999983,965443,2014-01-28,00:00:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.5987200000003,-33.5179099999985,4243313,2014-01-31,04:31:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,No determinado,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.7266354000006,-33.3999320999981,600800,2014-01-31,11:45:00,8:00-11:59,Denuncia,caso_policial,Caso policial,NA,Otros,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.6391898023004,-33.4035116136984,2589565,2014-01-31,14:45:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.7155021700005,-33.4197142499981,1834330,2014-02-01,05:50:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Quinta Normal,13126,NA,NA
+NA,-70.6074182671004,-33.4922983929985,1005594,2014-02-01,15:00:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Macul,13118,NA,NA
+NA,-70.6418622000004,-33.4057486999984,1511605,2014-02-03,22:50:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.6022945300003,-33.4919771499985,974917,2014-02-06,22:00:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Macul,13118,NA,NA
+NA,-70.5765521100003,-33.3934808799986,1535349,2014-02-07,22:33:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Vitacura,13132,NA,NA
+NA,-70.6338510300004,-33.5801990199984,971938,2014-02-09,01:50:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6489767910004,-33.4433549719983,2444402,2014-02-09,15:30:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.7759177900007,-33.5192865799979,1382918,2014-02-10,03:15:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.6716238000005,-33.4330867999983,2445052,2014-02-10,04:15:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.5806483200003,-33.4802084599985,403060,2014-02-12,23:00:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Macul,13118,NA,NA
+NA,-70.6970566060005,-33.5259180719982,1070411,2014-02-13,04:15:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Espejo,13116,NA,NA
+NA,-70.6178473100004,-33.5302644199984,2667882,2014-02-16,05:30:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Granja,13111,NA,NA
+NA,-70.6739253000005,-33.4299041999983,994325,2014-02-16,10:45:00,8:00-11:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.6912243033005,-33.3741401549982,2438577,2014-02-19,01:30:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.7485032800006,-33.434338779998,588257,2014-02-23,17:30:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pudahuel,13124,NA,NA
+NA,-70.6435206549004,-33.4135910051984,1073204,2014-02-24,00:10:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.6184811540004,-33.5168317649984,2440369,2014-02-24,01:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Granja,13111,NA,NA
+NA,-70.6583621000004,-33.4419654999983,421005,2014-02-27,20:10:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Otros,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.6045874753003,-33.5589854894984,970196,2014-02-28,23:00:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Florida,13110,NA,NA
+NA,-70.6360060510004,-33.4321586529984,2538045,2014-03-02,04:35:00,4:00-7:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.6399349560004,-33.4952257709983,1515867,2014-03-02,09:50:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Otros,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Miguel,13130,NA,NA
+NA,-70.6206490020004,-33.3804548549984,3075979,2014-03-03,16:10:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Huechuraba,13107,NA,NA
+NA,-70.6385200000004,-33.4879299999984,988091,2014-03-10,02:35:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Joaquín,13129,NA,NA
+NA,-70.5706633160003,-33.4534029689986,972192,2014-03-14,21:40:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Reina,13113,NA,NA
+NA,-70.6393884000004,-33.5401766999984,3090747,2014-03-15,09:05:00,8:00-11:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,San Ramón,13131,NA,NA
+NA,-70.5979751900004,-33.4620453299985,1071040,2014-03-17,13:55:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Ñuñoa,13120,NA,NA
+NA,-70.6341945840004,-33.5579228079984,8378,2014-03-17,23:15:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.7454924500006,-33.432606529998,2537206,2014-03-18,21:10:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pudahuel,13124,NA,NA
+NA,-70.6375682000004,-33.4080742999984,985374,2014-03-22,20:40:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.7546452140006,-33.422584774998,2567375,2014-03-23,04:20:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.7631214300007,-33.4944943099979,975970,2014-03-23,05:20:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.7023266000005,-33.4034018999982,3090800,2014-03-29,19:25:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.6102339880004,-33.5907280579984,3075809,2014-04-05,16:30:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6957862310005,-33.3883659669982,1073405,2014-04-09,15:00:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.7696791200007,-33.4956098799979,584482,2014-04-12,05:00:00,4:00-7:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Maipú,13119,NA,NA
+NA,-70.7450054010006,-33.450827551998,945725,2014-04-13,17:00:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pudahuel,13124,NA,NA
+NA,-70.6329755000004,-33.3978625999984,3090882,2014-04-14,22:20:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Recoleta,13127,NA,NA
+NA,-70.6777739000005,-33.4904735999982,1071236,2014-04-14,23:00:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pedro Aguirre Cerda,13121,NA,NA
+NA,-70.7025234000005,-33.3997979999982,416615,2014-04-18,13:30:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Domicilios particulares,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.6986392810005,-33.4005457789982,2538151,2014-04-20,19:00:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.5798300000003,-33.5013399999985,1483647,2014-04-22,18:55:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Otros,DMCS contra personas,Homicidio,NA,NA,NA,NA,Peñalolén,13122,NA,NA
+NA,-70.7234438310006,-33.4108277209981,2672306,2014-04-24,21:30:00,20:00-23:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Renca,13128,NA,NA
+NA,-70.7089011420005,-33.4406308489982,175358,2014-04-28,13:30:00,12:00-15:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Prado,13117,NA,NA
+NA,-70.7443949030006,-33.437880169998,982108,2014-05-02,00:30:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Pudahuel,13124,NA,NA
+NA,-70.6376895000004,-33.4436945999984,624849,2014-05-03,15:45:00,12:00-15:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,Santiago,13101,NA,NA
+NA,-70.7507925500006,-33.419713229998,477462,2014-05-04,02:04:00,0:00-3:59,Denuncia,caso_policial,Caso policial,NA,Hospitales y clínicas,DMCS contra personas,Homicidio,NA,NA,NA,NA,Cerro Navia,13103,NA,NA
+NA,-70.6438475820004,-33.5630257869983,3075808,2014-05-06,19:00:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.6168109060004,-33.5945046479984,2440683,2014-05-10,17:00:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Pintana,13112,NA,NA
+NA,-70.7078316990005,-33.4084952329982,3075940,2014-05-11,19:45:00,16:00-19:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Quinta Normal,13126,NA,NA
+NA,-70.7377118920006,-33.436453240998,141692,2014-05-23,03:00:00,0:00-3:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Lo Prado,13117,NA,NA
+NA,-70.6332711300004,-33.5332048599984,2440469,2014-05-26,22:45:00,20:00-23:59,Detención,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,La Granja,13111,NA,NA
+NA,-70.6811716000005,-33.3994963999983,478032,2014-05-29,11:00:00,8:00-11:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Conchalí,13104,NA,NA
+NA,-70.7502921070006,-33.366246073998,983781,2014-06-05,18:00:00,16:00-19:59,Denuncia,caso_policial,Caso policial,NA,Vía pública,DMCS contra personas,Homicidio,NA,NA,NA,NA,Quilicura,13125,NA,NA

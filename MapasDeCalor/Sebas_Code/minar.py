@@ -21,8 +21,8 @@ def parse_options(options):
 
 # INICIAR SESIÓN MANUALMENTE Y COPIAR LOS VALORES DE ESTAS COOKIES
 cookies = {
-    '546G65YGFHghfU65': '6e440d6a2e0ab0b96e6334eb965415a5',
-    'ci_session': 'g0obeb5ei91fd4fecsc47phsruppgqfu',
+    'Zm0gg3rNB6OzD4uO74M7Dk1htZoFniULoaxlvcs': 'd9576596f2f751d964656d2eb9a24b0e',
+    'ci_session': 'ehqj4fkauq2ap41dt4urcnj5o1g065kr',
 }
 
 headers = {
@@ -43,17 +43,13 @@ headers = {
 with open('barrios_por_comuna_v2.pickle', 'rb') as handle:
     barrios_por_comuna = pickle.load(handle)
 
-with open('delitos_completados.pickle', 'rb') as handle:
-    completados = pickle.load(handle)
 
-r = len(completados)
 for comuna in barrios_por_comuna:
   id_comuna =  barrios_por_comuna[comuna][0]
   barrios = barrios_por_comuna[comuna][1]
   for barrio in barrios:
     id_barrio = barrios[barrio][0]
     for año in range(2013,2023):
-      if (comuna, barrio.replace('/', '').replace('\\', '').replace(':', '').replace('"', '').replace('*', ''), año) not in completados:
         try:
           data = f'metodo=filter&forma=filter&poligono=&region=13&provincia=131&comuna={id_comuna}&barrio={id_barrio}&categoria=-1&delito^%^5B^%^5D=-1&anio={año}&mes=-1'
           print("Query:", data)
@@ -70,7 +66,6 @@ for comuna in barrios_por_comuna:
           nombre = nombre.replace('/', '').replace('\\', '').replace(':', '').replace('"', '').replace('*', '')
           df.to_csv(f'delitos/{nombre}.csv')
           # Conteo
-          completados.add((comuna, barrio, año))
           r += 1
           print(comuna, barrio, año, round(r/30420*100, 2))
         except Exception as e:
@@ -78,8 +73,3 @@ for comuna in barrios_por_comuna:
           # Tambien guardamos el estado de completados, pero de igual forma puede obtenerse
           # corriendo recuento.py
           print(e)
-          with open('delitos_completados.pickle', 'wb') as handle:
-              pickle.dump(completados, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-with open('delitos_completados.pickle', 'wb') as handle:
-  pickle.dump(completados, handle, protocol=pickle.HIGHEST_PROTOCOL)
