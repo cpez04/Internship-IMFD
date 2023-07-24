@@ -8,13 +8,14 @@ from moviepy.editor import ImageSequenceClip
 from PIL import Image 
 
 
+
 def resize_image(image_path, target_size):
     image = Image.open(image_path)
     resized_image = image.resize(target_size, Image.LANCZOS)
     return resized_image
 
-# Creates an animated heat map of the crime data (GIF format)
 def create_base_map(csv_file):
+
     # Read the sorted CSV file into a pandas DataFrame
     df = pd.read_csv(csv_file)
 
@@ -52,7 +53,7 @@ def update_heatmap(crime_map, heatmap_layer, df, week):
     # Update the data in the HeatMap layer
     heatmap_layer.data = heat_data
 
-def plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks):
+def plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks, title):
     
     # Set a consistent window size for the browser
     browser_width, browser_height = 1200, 800
@@ -78,6 +79,11 @@ def plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks):
         
         # Save the map as an HTML file
         html_file = f'map_{i}.html'
+        
+        title_html = f'''
+                     <h3 align="center" style="font-size:16px"><b>{title}</b></h3>
+                     '''   
+        crime_map.get_root().html.add_child(folium.Element(title_html))
         crime_map.save(html_file)
 
         # Open the map in the browser and take a screenshot
@@ -98,7 +104,7 @@ def plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks):
         clip = ImageSequenceClip(filenames, fps=5)
         clip.write_videofile('animation.mp4', codec='libx264')
     except: 
-         # Resize the images to the dimensions of the first image
+        print("Error creating animation. Resizing images...")
         first_image = Image.open(filenames[0])
         image_size = first_image.size
 
@@ -121,5 +127,6 @@ def plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks):
         
     
 filename = 'data_homicides_2.csv'  # Replace with the actual filename of the sorted CSV file
+title = 'Homicides in Santiago, Chile' 
 crime_map, heatmap_layer, df, unique_weeks = create_base_map(filename)
-plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks)
+plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks, title)
