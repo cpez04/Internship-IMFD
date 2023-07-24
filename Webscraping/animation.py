@@ -6,7 +6,8 @@ import os
 from selenium import webdriver
 from moviepy.editor import ImageSequenceClip
 from PIL import Image 
-
+import tkinter as tk
+from tkinter import filedialog
 
 
 def resize_image(image_path, target_size):
@@ -18,7 +19,11 @@ def create_base_map(csv_file):
 
     # Read the sorted CSV file into a pandas DataFrame
     df = pd.read_csv(csv_file)
-
+    
+    # Check if the CSV file contains the required columns
+    if not all(col in df.columns for col in ['x', 'y', 'fecha', 'hora', 'delito']):
+     raise Exception("The CSV file must contain the following column headers: x, y, fecha, hora, delito")
+     
     # Convert 'fecha' column to datetime type
     df['fecha'] = pd.to_datetime(df['fecha'])
 
@@ -32,7 +37,7 @@ def create_base_map(csv_file):
     latitude, longitude = df['y'].mean(), df['x'].mean()
 
     # Create the base map
-    crime_map = folium.Map(location=[latitude, longitude], zoom_start=11.6)
+    crime_map = folium.Map(location=[latitude, longitude], zoom_start=11.3)
 
     # Create an empty HeatMap layer
     heatmap_layer = HeatMap([], radius=10, blur=5)
@@ -125,8 +130,22 @@ def plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks, title):
         print("All frames deleted successfully!")
        
         
+def select_csv_file():
+    root = tk.Tk()
+    root.withdraw()  # Hide the main window
+
+    file_path = filedialog.askopenfilename(title="Select CSV File", filetypes=[("CSV files", "*.csv")])
+
+    if file_path:
+        return file_path
+    else:
+        print("No file selected.")
+        return None
     
-filename = 'data_homicides_2.csv'  # Replace with the actual filename of the sorted CSV file
-title = 'Homicides in Santiago, Chile' 
-crime_map, heatmap_layer, df, unique_weeks = create_base_map(filename)
-plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks, title)
+
+if __name__ == "__main__":
+    filename = select_csv_file()
+    if filename:
+        title = 'Homicides in Santiago, Chile' 
+        crime_map, heatmap_layer, df, unique_weeks = create_base_map(filename)
+        plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks, title)
