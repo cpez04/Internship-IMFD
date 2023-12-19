@@ -1,8 +1,11 @@
+import os
+import time 
+from datetime import timedelta
+
+
 import folium
 from folium.plugins import HeatMap
-import time
 import pandas as pd
-import os
 from selenium import webdriver
 from moviepy.editor import ImageSequenceClip
 from PIL import Image 
@@ -11,30 +14,34 @@ from tkinter import filedialog
 
 
 def resize_image(image_path, target_size):
+    # If image is not the same size as the target, resize it
     image = Image.open(image_path)
     resized_image = image.resize(target_size, Image.LANCZOS)
     return resized_image
 
 def create_base_map(csv_file):
-
     # Read the sorted CSV file into a pandas DataFrame
     df = pd.read_csv(csv_file)
     
     # Check if the CSV file contains the required columns
     if not all(col in df.columns for col in ['x', 'y', 'fecha', 'hora', 'delito']):
-     raise Exception("The CSV file must contain the following column headers: x, y, fecha, hora, delito")
+        raise Exception("The CSV file must contain, at least, the following column headers: x, y, fecha, hora, delito")
      
     # Convert 'fecha' column to datetime type
     df['fecha'] = pd.to_datetime(df['fecha'])
 
-    # Group the data into 7-day increments (weekly)
-    df['week'] = df['fecha'].dt.to_period('W').dt.start_time
+    # Find the minimum and maximum dates in the DataFrame
+    min_date = df['fecha'].min()
+    max_date = df['fecha'].max()
 
-    # Get unique weeks from the DataFrame
-    unique_weeks = df['week'].unique()
+    # Create a list of all the weeks in the DataFrame
+    all_weeks = pd.date_range(start=min_date - timedelta(days=min_date.weekday()), end=max_date + timedelta(days=6-max_date.weekday()), freq='W')
 
     # Create a map centered on a specific location
     latitude, longitude = df['y'].mean(), df['x'].mean()
+    
+     # Group the data into 7-day increments (weekly) and create the 'week' column
+    df['week'] = df['fecha'].dt.to_period('W').dt.start_time
 
     # Create the base map
     crime_map = folium.Map(location=[latitude, longitude], zoom_start=11.3)
@@ -45,12 +52,15 @@ def create_base_map(csv_file):
     # Add the HeatMap layer to the map
     heatmap_layer.add_to(crime_map)
 
-    return crime_map, heatmap_layer, df, unique_weeks
-
+    return crime_map, heatmap_layer, df, all_weeks
 
 def update_heatmap(crime_map, heatmap_layer, df, week):
+    # Convert the week to the correct format used in the DataFrame
+    start_date = week.strftime('%Y-%m-%d')
+    end_date = (week + pd.DateOffset(days=6)).strftime('%Y-%m-%d')
+
     # Filter the DataFrame for the selected week
-    filtered_df = df[df['week'] == week]
+    filtered_df = df[(df['fecha'] >= start_date) & (df['fecha'] <= end_date)]
 
     # Create a list of latitudes and longitudes for the heat map data for the selected week
     heat_data = [[row['y'], row['x']] for _, row in filtered_df.iterrows()]
@@ -58,12 +68,12 @@ def update_heatmap(crime_map, heatmap_layer, df, week):
     # Update the data in the HeatMap layer
     heatmap_layer.data = heat_data
 
-def plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks, title):
+def plot_weekly_heatmap(crime_map, heatmap_layer, df, all_weeks, title):
     
     # Set a consistent window size for the browser
     browser_width, browser_height = 1200, 800
     
-    # Create a directory to save frames
+    # Create a directory to save frames. If it already exists, delete all the files inside
     if not os.path.exists('frames'):
         os.makedirs('frames')
     else:
@@ -79,26 +89,33 @@ def plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks, title):
     
      
     # Iterate over each week to create the animation-like effect
-    for i, week in enumerate(sorted(unique_weeks)):
+    for i, week in enumerate(all_weeks):
         update_heatmap(crime_map, heatmap_layer, df, week)
-        
-        # Save the map as an HTML file
-        html_file = f'map_{i}.html'
-        
+
+        # Calculate the start and end dates for the week to include in the title
+        start_date = week.strftime('%Y-%m-%d')
+        end_date = (week + pd.DateOffset(days=6)).strftime('%Y-%m-%d')
+
+    
         title_html = f'''
                      <h3 align="center" style="font-size:16px"><b>{title}</b></h3>
+                     <p align="center" style="font-size:14px"><b>{start_date} - {end_date}</b></p>
                      '''   
         crime_map.get_root().html.add_child(folium.Element(title_html))
+
+        # Save the map as an HTML file
+        html_file = f'map_{i}.html'
         crime_map.save(html_file)
 
         # Open the map in the browser and take a screenshot
         driver.get(f'file://{os.path.abspath(html_file)}')
         png_file = f'frames/frame_{i}.png'
         filenames.append(png_file)
-        #Add a slight delay
+
+        # Add a slight delay to avoid whitewashed/blank images
         time.sleep(.13)
         driver.save_screenshot(png_file)
-        
+
         # Now delete the HTML file to avoid cluttering up the directory
         os.remove(html_file)
 
@@ -146,6 +163,7 @@ def select_csv_file():
 if __name__ == "__main__":
     filename = select_csv_file()
     if filename:
+        # Can change title depending on context. 
         title = 'Homicides in Santiago, Chile' 
         crime_map, heatmap_layer, df, unique_weeks = create_base_map(filename)
         plot_weekly_heatmap(crime_map, heatmap_layer, df, unique_weeks, title)
